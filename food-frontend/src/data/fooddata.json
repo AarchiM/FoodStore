@@ -1,0 +1,168 @@
+{
+    [
+    {
+        "categoryName": "Biryani/Rice",
+        "name": "Veg friedd Rice",
+        "img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "options": [
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer with 100grams of fresh vegitables."
+    },
+    {
+        "categoryName": "Appetizers",
+        "name": "Paneer Tikka",
+        "img": "https://images.unsplash.com/photo-1666001120694-3ebe8fd207be?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFuZWVyJTIwdGlra2F8ZW58MHx8MHx8fDA%3D",
+        "options": [
+            {
+                "half": "180",
+                "full": "350"
+            }
+        ],
+        "description": "Grilled paneer cubes marinated in a blend of spices and yogurt. A delicious vegetarian appetizer, served with mint chutney."
+    },
+    {
+        "categoryName": "Sandwiches",
+        "name": "Vegetable Sandwitch",
+        "img": "https://images.unsplash.com/photo-1619860860774-1e2e17343432?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FuZHdpdGNofGVufDB8fDB8fHww",
+        "options": [
+            {
+                "half": "120",
+                "full": "230"
+            }
+        ],
+        "description": "Succulent paneer pieces wrapped in flatbread with vegetables, red sauce, and spices. A Middle Eastern classic loved by many."
+    },
+    {
+        "categoryName": "Appetizers",
+        "name": "Veg Manchurian",
+        "img": "https://media.istockphoto.com/id/2159018819/photo/manchurian-with-gravy.jpg?s=612x612&w=is&k=20&c=5CFA68DzXt78oX6q71tHs8Hiesnj7JZBVyKwthHRQHc=",
+        "options": [
+            {
+                "half": "150",
+                "full": "280"
+            }
+        ],
+        "description": "Deep-fried vegetable balls in a tangy, sweet, and spicy Manchurian sauce. A popular Indo-Chinese appetizer."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Aloo Gobi",
+        "img": "https://media.istockphoto.com/id/505844643/photo/fish-soup.jpg?s=612x612&w=0&k=20&c=4MXIKOOpprZjEyaJfkwUqJM6MhgFY65gFGVe9PIQONA=",
+        "options": [
+            {
+                "half": "130",
+                "full": "240"
+            }
+        ],
+        "description": "A classic North Indian dish made with potatoes and cauliflower cooked in a flavorful blend of spices."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Chole Bhature",
+        "img": "https://media.istockphoto.com/id/1328896670/photo/katlambe-chole.jpg?s=612x612&w=0&k=20&c=pqASzto6oi335ApT4CrJDTMniqLRi_uy0WwfigCbMFM=",
+        "options": [
+            {
+                "half": "150",
+                "full": "280"
+            }
+        ],
+        "description": "A North Indian favorite, this dish features spicy chickpeas (chole) served with deep-fried, fluffy bread (bhature). Perfect with a side of pickles and yogurt."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Aloo Paratha",
+        "img": "https://media.istockphoto.com/id/1167481258/photo/image-of-north-indian-breakfast-dish-buffet-slices-of-aloo-parathas-with-sprinkle-of.jpg?s=612x612&w=is&k=20&c=DCfouJEudrDnkqAPvBrqo_ZoE68S43AFIOet0RFrdnI=",
+        "options": [
+            {
+                "butter": "100",
+                "ghee": "180"
+            }
+        ],
+        "description": "Soft, stuffed flatbread filled with spiced mashed potatoes. Served with curd and pickle for an extra zing."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Palak Paneer",
+        "img": "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGFsYWslMjBwYW5lZXJ8ZW58MHx8MHx8fDA%3D",
+        "options": [
+            {
+                "regular": "200",
+                "half": "180",
+                "full": "350"
+            }
+        ],
+        "description": "A smooth and creamy spinach gravy with soft cubes of paneer. Served with naan or rice for a hearty meal."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Baingan Bharta",
+        "img": "https://media.istockphoto.com/id/656947220/photo/baingan-bharta.jpg?s=612x612&w=0&k=20&c=WPWf5Mkue_1RC4U8KccBi3jXQSTTB84NLOWjsT6RpSs=",
+        "options": [
+            {
+                "half": "150",
+                "full": "270"
+            }
+        ],
+        "description": "Smoky, mashed eggplant cooked with spices and a dash of tangy tomatoes. A comforting side dish for roti or rice."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Vegetable Korma",
+        "img": "https://media.istockphoto.com/id/1286704697/photo/close-up-image-of-turquoise-blue-cooking-pan-filled-with-butter-chicken-tikka-curry-large.jpg?s=612x612&w=0&k=20&c=MDd5GOCGOaXnUvB13_O_LDyj9kbx5rTL2irQU6P1THg=",
+        "options": [
+            {
+                "half": "160",
+                "full": "300"
+            }
+        ],
+        "description": "A rich and creamy curry made with mixed vegetables, nuts, and a blend of aromatic spices. Perfect with naan or steamed rice."
+    },
+    {
+        "categoryName": "Vegetarian",
+        "name": "Dal Tadka",
+        "img": "https://media.istockphoto.com/id/1326815151/photo/indian-popular-food-dal-fry-or-traditional-dal-tadka-curry.jpg?s=612x612&w=is&k=20&c=G6JEMc-mVSY0JAB8PGcFbzifjghFGfGvUw6JuRL5RbQ=",
+        "options": [
+            {
+                "regular": "150",
+                "half": "120",
+                "full": "220"
+            }
+        ],
+        "description": "Yellow lentils cooked with onions, tomatoes, and tempered with ghee and spices for a delicious, flavorful curry."
+    },
+    {
+        "categoryName": "Snacks",
+        "name": "Dhokla",
+        "img": "https://media.istockphoto.com/id/2154971502/photo/famous-gujrati-snack-dhokla-made-with-gram-flour-and-sugar-syrup-decorated-with-mint-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=MacEDJlATPi0-ztKaDwBRJxq4k9KPKI6MhZwEoZdQeg=",
+        "options": [
+            {
+                "half": "80",
+                "full": "150"
+            }
+        ],
+        "description": "Steamed savory cake made with fermented rice and chickpea flour, served with chutneys. A healthy and light snack."
+    }
+    
+      
+],
+
+[
+    {
+        "categoryName": "Vegetarian"
+    },
+    {
+        "categoryName": "Biryani/Rice"
+    },
+    {
+        "categoryName": "Sandwiches"
+    },
+    {
+        "categoryName": "Sandwiches"
+    }
+    
+]
+}
