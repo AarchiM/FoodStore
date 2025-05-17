@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export const MyOrders = () => {
   const [myOrder, setMyOrder] = useState([]);
+  let total = 0;
   const MyOrderedData = async () => {
     try {
       const userEmail = localStorage.getItem("userEmail");
@@ -14,9 +15,13 @@ export const MyOrders = () => {
           email: userEmail,
         }),
       }).then((res) => res.json());
+
+      if (!response.orderDate) {
+        setMyOrder([]);
+        return;
+      }
+
       setMyOrder(response.orderDate.order_data);
-      console.log("Response : ", response.orderDate.order_data);
-      console.log("Response : ", response.orderDate);
     } catch (error) {
       console.log("Error in API call");
     }
@@ -37,26 +42,25 @@ export const MyOrders = () => {
           <div className="flex w-full justify-center p-4 text-xl font-bold">
             Previous Orders
           </div>
-          {myOrder.reverse().map((order, index) => (
-            <div key={order.order_date}>
-              {/* {order.map((item, index) => {
-              if (item.order_date) {
-                  return (
-                      <div key={index+2}>
-                  <div className="font-bold p-4">DATE: {item.order_date} </div>
-                  <hr className="border-b border-primary" />
-                </div>
-              );
-            }
-        })} */}
-              {order.map((item, index) => 
-              item.order_date ? (
-                <div key={index + 2}>
-                  <div className="font-bold p-4">DATE: {item.order_date} </div>
-                  <hr className="border-b border-primary" />
-                </div>
-              ) : (
-                <div key={index+2}>
+          {myOrder.reverse().map((order, index) => {
+            total = 0;
+            return (
+              <div key={order.order_date}>
+                {order.map((item, index) => {
+                  if (item.order_date) {
+                    return (
+                      <div key={index + 2}>
+                        <div className="font-bold p-4">
+                          DATE: {item.order_date}{" "}
+                        </div>
+                        <hr className="border-b border-primary" />
+                      </div>
+                    );
+                  } else {
+                    total = total + item.price * item.quantity;
+                  }
+                })}
+                <div>
                   <table className="min-w-full table-auto">
                     <thead>
                       <tr className="border-b border-primary">
@@ -80,10 +84,11 @@ export const MyOrders = () => {
                       })}
                     </tbody>
                   </table>
+                  <h1 className="p-4 font-bold underline">Total: {total}</h1>
                 </div>
-              ))}
-            </div>
-          ))}
+              </div>
+            );
+          })}
         </>
       )}
     </div>
