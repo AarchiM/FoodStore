@@ -13,6 +13,7 @@ export default {
         textcolor : "#6C757D",
         primary: "#E64A19",
         secondary: "#FF784E",
+        darkPrimary: '#1F1E1E',
       }
     },
   },

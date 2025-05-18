@@ -32,7 +32,7 @@ export const MyOrders = () => {
   }, []);
 
   return (
-    <div className="min-h-[75vh]">
+    <div className="min-h-[75vh] flex flex-col items-center">
       {myOrder.length == 0 ? (
         <div className="flex w-full justify-center p-4 text-xl font-bold">
           No History
@@ -45,7 +45,7 @@ export const MyOrders = () => {
           {myOrder.reverse().map((order, index) => {
             total = 0;
             return (
-              <div key={order.order_date}>
+              <div className="p-4 m-2 w-4/5 border-[0.5px] dark:border-gray-800 rounded-lg shadow-md dark:bg-darkPrimary bg-red-100" key={order.order_date}>
                 {order.map((item, index) => {
                   if (item.order_date) {
                     return (
